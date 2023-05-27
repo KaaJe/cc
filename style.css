@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+    background-color: #0e0d13;
+}
+
+header{
+    background-color: #f42f4a;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+nav h1{
+    color: #EEEEEE;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-top: auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #c9c9c9;
+}
+
+div h2{
+    color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    line-height: 25px;
+}
+
+div h2 span{
+    color: #f42f4a;
+    padding-left: 6px;
+}
+
+.h4s{
+    color: #c9c9c9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.p3 {
+    color: #e6364e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Button {
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f42f4a;
+    color: #0e0d13;
+    border-radius: 6px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.Button:hover{
+    transform: scale(1.1);
+    background-color: #e6364e;
+}
+.owm{
+    margin-top: 95;
+}
+
+.mwo {
+    margin-top: 120px;
+}
+
+/* New Section */
+
+.Basic2 {
+    color: #0e0d13;
+    background-color: #c9c9c9;
+    width: 220px;
+    height: 320px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.Basic2 h3 {
+    padding-top: 12px;
+    text-align: center;
+}
+
+.Basic2 h4 {
+    font-weight: 500;
+    line-height: 10px;
+    padding-top: 25px;
+    color: #0e0d13;
+}
+
+.Basic2 h4 span {
+    float: right;
+    padding-right: 20px;
+}
+
+.ss2 {
+    color: #0e0d13;
+    border-style: solid;
+    border-color: #0e0d13;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    margin-top: 30px;
+    transition: 0.5s ease;
+}
+
+.ss2:hover{
+    background-color: #0e0d13;
+    color: #f42f4a;
+    transition: 0.5s;
+}
+.ss2 span {
+    font-size: 13px;
+}
+
+.centered2 {
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+.Basic {
+    color: #0e0d13;
+    background-color: #c9c9c9;
+    width: 220px;
+    height: 270px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+.Basic h3 {
+    padding-top: 12px;
+    text-align: center;
+}
+
+.Basic h4 {
+    font-weight: 500;
+    line-height: 30px;
+    color: #0e0d13;
+}
+
+.Basic h4 span {
+    float: right;
+    padding-right: 20px;
+}
+
+.ss {
+    color: #0e0d13;
+    border-style: solid;
+    border-color: #0e0d13;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 17px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+
+.ss:hover{
+    background-color: #0e0d13;
+    color: #f42f4a;
+    transition: 0.5s;
+}
+.ss span {
+    font-size: 13px;
+}
+
+.centered {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+/* New */
+
+.p {
+    color: #f42f4a;
+    text-align: center;
+}
+
+.CardSection{
+    background-color: #c9c9c9;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.CardSection i {
+    color: #f42f4a;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+
+.h4{
+    text-align: center;
+}
+.PP {
+    text-align: center;
+}
+
+.Wha {
+    color: #0e0d13;
+    border-style: solid;
+    border-color: #0e0d13;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+
+.Wha:hover{
+    background-color: #0e0d13;
+    color: #f42f4a;
+    transition: 0.5s;
+}
+.cen {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #c9c9c9;
+    width: auto;
+    height: 35px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Fo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fo a {
+    color: #e6364e;
+}
